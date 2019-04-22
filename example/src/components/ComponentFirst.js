@@ -1,8 +1,12 @@
 import React, {Component} from 'react';
 
-class ComponentFirst extends React.Component {
+class ComponentFirst extends Component {
     render () {
-        return <p>Desde mi primer componente</p>
+        return (
+            <div>
+                <p>Desde mi primer componente</p>
+            </div>
+        )
     }
 }
 
