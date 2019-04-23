@@ -5,7 +5,7 @@ class Producto extends Component {
         const {nombre,precio} = this.props.producto;
         return (
             <div>
-                <p>{nombre} {precio}</p>               
+                <p>{nombre} - Precion : $ {precio}</p>      
             </div>
         )
     }
