@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ComponentFirst from './components/ComponentFirst';
+import Aplicacion from './components/Aplicacion';
 import './css/index.css';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(  <ComponentFirst/> , document.getElementById('root'));
+ReactDOM.render(  <Aplicacion/> , document.getElementById('root'));
 serviceWorker.unregister();
