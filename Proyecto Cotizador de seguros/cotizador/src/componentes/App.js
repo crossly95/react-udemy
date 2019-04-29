@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="contenedor">
-        <Header titulo="Cotisador de Seguros" />
+        <Header titulo="Cotizador de Seguros" />
         <div className= "contenedor-formulario">
         <Formulario/>
         </div>
